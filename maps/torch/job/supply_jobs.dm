@@ -9,12 +9,14 @@
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	ideal_character_age = 35
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer
+	alt_titles = list( //Frontier add
+		"Quartermaster") //Frontier add end
+	outfit_type = /decl/hierarchy/outfit/job/cargo/qm //Frontier edit
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps
+		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/cargo/qm //Frontier edit
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/ec/e7
+		/datum/mil_rank/civ/contractor //Frontier edit
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
 	                    SKILL_FINANCE     = SKILL_BASIC,
@@ -43,9 +45,11 @@
 	supervisors = "the Deck Chief and Executive Officer"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 24
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/tech
+	alt_titles = list( //Frontier add
+		"Cargo Technician") //Frontier add end
+	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech //Frontier edit
 	allowed_branches = list(
-		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/crew/supply/contractor
+		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/cargo/cargo_tech //Frontier edit
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor

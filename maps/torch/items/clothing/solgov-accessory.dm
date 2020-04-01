@@ -385,7 +385,7 @@ department tags
 
 /obj/item/clothing/accessory/solgov/department/command
 	name = "command insignia"
-	desc = "Insignia denoting assignment to the command department. These fit Surveyor Corps uniforms."
+	desc = "Insignia denoting assignment to the command department." //Frontier edit
 	color = "#e5ea4f"
 
 /obj/item/clothing/accessory/solgov/department/command/service
@@ -407,7 +407,7 @@ department tags
 
 /obj/item/clothing/accessory/solgov/department/engineering
 	name = "engineering insignia"
-	desc = "Insignia denoting assignment to the engineering department. These fit Surveyor Corps uniforms."
+	desc = "Insignia denoting assignment to the engineering department." //Frontier edit
 	color = "#ff7f00"
 
 /obj/item/clothing/accessory/solgov/department/engineering/service
@@ -495,7 +495,7 @@ department tags
 
 /obj/item/clothing/accessory/solgov/department/service
 	name = "service insignia"
-	desc = "Insignia denoting assignment to the service department. These fit Surveyor Corps uniforms."
+	desc = "Insignia denoting assignment to the service department." //Frontier edit
 	color = "#6eaa2c"
 
 /obj/item/clothing/accessory/solgov/department/service/service
@@ -517,7 +517,7 @@ department tags
 
 /obj/item/clothing/accessory/solgov/department/exploration
 	name = "exploration insignia"
-	desc = "Insignia denoting assignment to the exploration department. These fit Surveyor Corps uniforms."
+	desc = "Insignia denoting assignment to the exploration department." //Frontier edit
 	color = "#68099e"
 
 /obj/item/clothing/accessory/solgov/department/exploration/service
@@ -538,7 +538,7 @@ department tags
 
 /obj/item/clothing/accessory/solgov/department/research
 	name = "research insignia"
-	desc = "Insignia denoting assignment to the research department. These fit Surveyor Corps uniforms."
+	desc = "Insignia denoting assignment to the research department." //Frontier edit
 	color = COLOR_RESEARCH
 
 /obj/item/clothing/accessory/solgov/department/research/service

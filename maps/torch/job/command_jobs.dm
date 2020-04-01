@@ -98,12 +98,12 @@
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35, SPECIES_UNATHI = 35, SPECIES_SERGAL = 35, SPECIES_NORTHERN = 35, SPECIES_EASTERN = 35, SPECIES_SKRELL = 35, SPECIES_PROMETHEAN = 35, SPECIES_YEOSA = 35, SPECIES_VASS = 35, SPECIES_TAJ = 35, SPECIES_CUSTOM = 35, SPECIES_AKULA = 35)
 	ideal_character_age = 60
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/cso
+	outfit_type = /decl/hierarchy/outfit/job/science/rd //Frontier edit
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps
+		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/science/rd //Frontier edit
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/ec/o3
+		/datum/mil_rank/civ/contractor //Frontier edit
 	)
 
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,

@@ -16,6 +16,7 @@
 /decl/hierarchy/outfit/job/torch/crew/research/senior_scientist
 	name = OUTFIT_JOB_NAME("Senior Scientist - Expeditionary Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/officer/research
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat //Frontier add
 	id_type = /obj/item/weapon/card/id/torch/crew/research/senior_scientist
 
 /decl/hierarchy/outfit/job/torch/crew/research/scientist

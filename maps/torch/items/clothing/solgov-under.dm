@@ -83,6 +83,8 @@
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/engineering
+	name = "senior engineer's jumpsuit" //Frontier add
+	desc = "The utility jumpsuit, made from biohazard resistant material and worn by senior engineer. This one has silver trim." //Frontier add end
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/security
@@ -95,9 +97,13 @@
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/service
+	name = "crewman's jumpsuit" //Frontier add
+	desc = "The utility jumpsuit, made from biohazard resistant material and worn by crewmen. This one has silver trim." //Frontier add end
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/exploration
+	name = "explorer's jumpsuit" //Frontier add end
+	desc = "The utility jumpsuit, made from biohazard resistant material and worn by explorers. This one has silver trim." //Frontier add end
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/research
@@ -110,6 +116,8 @@
 	worn_state = "blackutility_com"
 
 /obj/item/clothing/under/solgov/utility/expeditionary/officer/command
+	name = "bridge officer's jumpsuit" //Frontier add
+	desc = "The utility jumpsuit, made from biohazard resistant material and worn by bridge officers. This one has gold trim." //Frontier add end
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/officer/engineering
@@ -128,9 +136,13 @@
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/officer/exploration
+	name = "pathfinder's jumpsuit" //Frontier add
+	desc = "The utility jumpsuit, made from biohazard resistant material and worn by pathfinder. This one has gold trim." //Frontier add end
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration)
 
 /obj/item/clothing/under/solgov/utility/expeditionary/officer/research
+	name = "senior researcher's jumpsuit" //Frontier add
+	desc = "The utility jumpsuit, made from biohazard resistant material and worn by senior researcher. This one has gold trim." //Frontier add end
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/research)
 
 /obj/item/clothing/under/solgov/utility/fleet
